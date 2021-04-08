@@ -1,0 +1,18 @@
+  GNU nano 5.2                      firewall.txt                      Modified  
+#!/bin/bash
+
+sudo nano /etc/default/ufw
+
+IPV6=yes
+
+sudo ufw default deny incoming
+
+sudo ufw default allow outgoing
+
+sudo ufw allow ssh
+
+sudo ufw enable
+
+sudo ufw deny http
+
+

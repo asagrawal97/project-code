@@ -1,0 +1,6 @@
+{
+    "database-root-pw": "password",
+    "database-access-range": "192.168.33.%",
+    "user-database-password": "userpass",
+    "ubuntu-firewall-access-range": "192.168.33.0/24"
+}
